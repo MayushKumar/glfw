@@ -103,3 +103,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+#Build Binaries
+bin/
+bin-int/
