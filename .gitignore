@@ -83,3 +83,6 @@ tests/title
 tests/triangle-vulkan
 tests/windows
 
+#Build Binaries
+bin/
+bin-int/
