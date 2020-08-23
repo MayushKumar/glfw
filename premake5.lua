@@ -20,7 +20,8 @@ project "GLFW"
 	}
 
 	filter "system:windows"
-		--buildoptions { "-std=c11", "-lgdi32" }
+	--buildoptions { "-std=c11", "-lgdi32" }
+		toolset "clang"
 		systemversion "latest"
 
 		files
